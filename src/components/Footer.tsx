@@ -77,9 +77,17 @@ const Footer = () => {
                 🚀 Open to opportunities and collaborations
               </p>
             </div>
+
+            <div className="bg-gray-50 p-3 rounded-lg mt-4">
+              <a href="https://expressiveai.in/portlify" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
+                <img src="/logo.png" alt="Expressive AI Logo" className="h-5 w-5 object-contain" />
+                <p className='text-xs text-blue-700 font-medium hover:underline'>
+                  Start building with Expressive AI today!
+                </p>
+              </a>
+            </div>
           </div>
         </div>
-
       </div>
     </footer>
   );
