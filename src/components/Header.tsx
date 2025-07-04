@@ -105,9 +105,11 @@ const Header = () => {
                   <Phone className="h-4 w-4" />
                   <span>+91 7306446116</span>
                 </div>
-                <div className="flex items-center space-x-2 px-3 py-2 text-xs text-gray-400 mt-2">
-                  <Sparkles className="h-3 w-3" />
-                  <span>built with expressive ai</span>
+                <div className="text-xs text-gray-600 ml-6 flex items-center space-x-1 px-2 py-1 bg-white/95 backdrop-blur-md rounded-md hover:bg-green-50 transition-colors duration-200">
+                  <img src="/logo.png" alt="Expressive AI Logo" className="h-5 w-5 object-contain" />
+                  <a href="https://expressiveai.in/portlify" target="_blank" rel="noopener noreferrer" >
+                    <span>Built with expressive ai</span>
+                  </a>
                 </div>
               </div>
             </div>

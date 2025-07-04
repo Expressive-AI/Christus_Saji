@@ -28,10 +28,6 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="inline-flex items-center px-6 py-3 border-2 border-gray-800 text-gray-800 font-medium rounded-lg hover:bg-green-100 hover:border-green-600 hover:text-green-800 transition-all duration-300">
-                View My Work
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </button>
               <a 
                 href="/Christus_Saji.pdf"
                 download="Christus_Saji_Joseph_Resume.pdf"
